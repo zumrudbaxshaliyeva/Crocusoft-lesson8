@@ -54,3 +54,23 @@ Beş düymə və bir input sahəsi əlavə edin:
 "Sürəti təyin et" (input sahəsinə daxil edilən dəyərə görə audio sürətini dəyişmək üçün)
 
 
+## Task6 - Modal İdarəetməsi
+Məqsəd: useRef istifadə edərək bir modal pəncərəsini açın və bağlayın.
+
+Bir ModalManager komponenti yaradın.
+useRef istifadə edərək modal pəncərəsi üçün referans yaradın.
+İki düymə yaradın:
+"Modalı Aç" (modal pəncərəsini göstərmək üçün)
+"Modalı Bağla" (modal pəncərəsini gizlətmək üçün)
+Modal pəncərəsini stil ilə gizlədin və göstərin.
+
+
+## Task7 - Timer
+Məqsəd: useRef istifadə edərək bir timer (zamanölçən) yaradın.
+
+Bir Timer komponenti yaradın.
+useRef istifadə edərək timer dəyərini və setInterval üçün bir referans yaradın.
+İki düymə yaradın:
+"Başla" (timeri başlatmaq üçün)
+"Dayandır" (timeri dayandırmaq üçün)
+Timer dəyərini göstərən bir p elementini yaradın.
