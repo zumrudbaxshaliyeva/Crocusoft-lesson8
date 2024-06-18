@@ -1,0 +1,35 @@
+.audioDiv {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    .startPause {
+        button {
+            border-radius: 20px;
+        }
+
+        display: flex;
+        gap: 20px;
+    }
+
+    .changeButtons {
+        button {
+            border-radius: 20px;
+        }
+
+        display: flex;
+        gap: 15px;
+    }
+
+    .speedControl {
+        button {
+            border-radius: 20px;
+        }
+
+        display: flex;
+        gap: 15px;
+    }
+}

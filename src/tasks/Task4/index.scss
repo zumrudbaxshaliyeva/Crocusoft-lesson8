@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+
+    .wrapper {}
+
+    .modal {
+        width: 350px;
+        height: 170px;
+        border: solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1e1e1e;
+        border-radius: 20px;
+    }
+
+    .btns {
+        display: flex;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,25 @@
+.timer {
+    font-size: 45px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    .btns {
+        display: flex;
+        gap: 20px;
+
+        button {
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 18px;
+            background-color: green;
+            color: white;
+        }
+    }
+}
