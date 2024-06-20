@@ -1,0 +1,42 @@
+$colors : (
+    'light' : #fff,
+    'dark': #000000
+);
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & span{
+        display: inline-block;
+        margin-right: 25px;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        & img{
+            max-width: 25px;
+            width: 100%;
+        }
+    }
+}
+
+.wrapper-light{
+    background-color: map-get($map: $colors, $key: "light");
+    & span{
+        border: 2px solid map-get($colors , "dark" );  
+        background-color: map-get($map: $colors, $key: "light");
+    }
+}
+
+.wrapper-dark{
+    background-color: map-get($map: $colors, $key: "dark");
+    & span{
+        background-color: map-get($map: $colors, $key: "light");;
+        border: 2px solid map-get($colors , "light" );        
+    }
+}
+
+
+

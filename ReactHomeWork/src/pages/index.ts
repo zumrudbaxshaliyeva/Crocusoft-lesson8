@@ -1,0 +1,5 @@
+export {default as FormInput} from '@/pages/FormInput'
+export {default as Audio} from '@/pages/Audio'
+export {default as ModalManager} from '@/pages/Modal'
+export {default as ThemeSwitcher} from '@/pages/ThemeSwitcher'
+export {default as Timer} from '@/pages/Timer'
