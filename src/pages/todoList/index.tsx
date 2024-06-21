@@ -1,6 +1,6 @@
 import React from 'react'
 
-function App() {
+function todoList() {
 
 let [todo, setTodo] = React.useState<string>('');
 let [arr, setArr] = React.useState<string[]>([]);
@@ -39,4 +39,4 @@ function addTodo(e: React.FormEvent<HTMLFormElement>):void {
   )
 }
 
-export default App
+export default todoList
